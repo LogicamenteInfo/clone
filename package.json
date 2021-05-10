@@ -1,0 +1,12 @@
+{
+  "name": "@logicamente.info/clone",
+  "version": "1.0.0",
+  "description": "Quickly clones a object structure",
+  "main": "index.js",
+  "repository": "https://github.com/logicamenteinfo/clone",
+  "author": "Natanael Simoes",
+  "license": "MIT",
+  "dependencies": {
+    "clone": "^2.1.2"
+  }
+}
