@@ -1,6 +1,6 @@
 {
   "name": "@logicamente.info/clone",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Quickly clones a object structure",
   "main": "index.js",
   "repository": "https://github.com/logicamenteinfo/clone",
