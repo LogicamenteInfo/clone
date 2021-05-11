@@ -8,7 +8,7 @@ const deep = require('clone');
  */
 function clone(obj) {
   if (typeof obj !== 'object') return obj;
-  const result = {};
+  const result = Array.isArray(obj) ? [] : {};
   const keys = Object.keys(obj);
   keys.forEach((k) => {
     if (Array.isArray(obj[k])) result[k] = obj[k].map(clone);
